@@ -1,0 +1,65 @@
+20 Jan
+Constructor - Constructor is special type of method and it call when the object of class is created.
+
+Types of Constructor-
+    1.Default constructor
+    2.Parameterized constructor
+
+Rules of creating constructor-
+                        1. Class name and constructor name should be same.
+                        2. we can not declare return type explicitly.
+                        3. we can not declare constructor abstract,static or synchronized
+******************************************************************************************************************
+
+21 Jan
+
+Access Modifier
+
+  1. public - Public is accessible through out the project
+  2. private - private is accessible only within class
+  3. protected - protected is accessible only within a package,
+                 but accessible in another package through inheritance
+  4. default - it is accessible only within a package. and it is more restrictive than protected.
+
+Polymorphism -
+            It is ability to take many forms.
+            ex-
+            1 . Method overloading - if same method name have multiple time is same class it is called method overloading.
+                                     It increases program readability.
+            rule for method overloading - 1. same name but different number of parameters
+                                          2. same number of parameter but different datatype.
+
+            2. Method Overriding - If child class have same method name in that parent class then is called method overriding.
+
+
+Local Variable => if we declare variable within method this is called Local Variable. They are accessible within a method
+Instance Variable -> Instance Variable are declared at class level
+
+
+Throwable ->
+           1. Exception-
+                        1.IOException
+                        2.SQLException
+                        3.ClassNotFoundExecption
+                        3.RuntimeException
+                                    - ArithmaticException
+                                    - NullpointerException
+                                    - NumberFormatException
+                                    - IndexOutOfBoundException -
+                                                           - ArrayIndexOutOfBoundException
+                                                           - StringIndexOutOfBoundException
+
+           2. Error-
+                    1.StackOverFlowError
+                    2.OutOfMemoryError
+
+**** There are two types Exception
+            1. Checked Exception-
+                    except RuntimeException all exception are come
+            2. Unchecked Exception -
+                    All Run time exception are unchecked exceptions
+
+                     Throw                                      Throws
+ 1. Throw is used for throw exception explicitly.           1. Throws is used to declare exception
+ 2. Throw is used within method                             2. Throws is used with method signature
+ 3. we can not declare multiple exception                   3. we can declare multiple exceptions using Throws.
